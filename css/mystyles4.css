@@ -1,0 +1,143 @@
+#octocatmain {
+	width: 60%;
+	height: 60%;
+	display: block;
+	margin: auto;
+}
+
+.dropshadow {
+	text-shadow: 0 0 1px black;
+            
+}
+
+.atlink > a, .atlink:hover, .atlink:focus {
+	text-decoration: none; !important;
+	color: #ffe448;
+}
+
+/*align text center*/
+.txtcenter {
+	text-align: center;
+}
+
+/*Style for Main Icons*/
+.mainicons {
+	font-size: 50px;
+	text-align: center;
+}
+
+/*container for all content*/
+.container, header {
+	/*/*margin-top: 50px;*/ /*I replaced this with .topmostmargin*/
+	text-align: center;
+}
+
+.topmostmargin {
+	margin-top: 50px;
+}
+
+/*Spacing between Rows */
+.spacingtop {
+	margin-top: 20px;
+}
+
+.spacingtop2 {
+	margin-top: 30px;
+}
+/*font styling */
+.grey {
+	color: #404040;
+}
+
+.extra-light {
+	font-weight: 200;
+}
+
+h1 {
+	font-size: 36px;
+	line-height: 38px;
+}
+
+header {
+	letter-spacing: -1px;
+	color: #ffe448;
+	color: #fdd805;
+	color: #fedd22;
+}
+
+header h2{
+	font-weight: 300;
+}
+
+/*--------------------colors*/
+.yellow {
+	/*color: #ffe448;*/
+	/*color: #fedd22;*/
+	color: #fdd805;
+	/*color: orange;*/
+}
+
+.orange {
+	/*color: #ffc02d;*/
+	/*color: #f8a605;*/
+	/*color: #ffda29;*/
+	color: #f37e20;
+
+}
+
+.pink {
+	/*color: #f32a20;*/
+	color: #fb4446;
+}
+/*after Header*/
+.divsectioncolor {
+	background-color: #fef2be;
+	margin-top: 40px;
+
+}
+
+#definition {
+/*background-color: #fef2be;*/
+
+background-color: #fef7d7;
+border-top: 1px solid silver;
+border-bottom: 1px solid silver;
+margin-top: 70px;
+}
+/*h2, .copy {
+font-size: 30px;
+letter-spacing: -1px;
+line-height: 38px;
+font-weight: 900;
+}*/
+
+
+
+#definition ul {
+list-style: none;
+font-size: 22px;
+/*padding-left: 0px;*/
+
+/*bootstrap adds some margin left of right, so I removed below*/
+margin: 30px 0 0 0;
+
+}
+
+#definition ul li {
+margin-top: 10px;
+}
+
+#definition, li {
+	text-align: center;
+	/*padding-left: 0px;*/
+	padding-bottom: 10px;
+}
+
+
+/*bootstrap adds some margin left of right, so I removed left and right margins with this class*/
+.zeromargin_rightleft {
+	margin-right: 0;
+	margin-left: 0;
+}
+
+

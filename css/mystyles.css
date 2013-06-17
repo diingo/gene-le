@@ -1,0 +1,44 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+.center {
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+/*aligning nav text, .center centers the text*/
+/*.center.navbar .nav,
+.center.navbar .nav > li {
+    float:none;
+    display:inline-block;*/
+    /**display:inline;*/ /* ie7 fix */
+    /**zoom:1;*/ /* hasLayout ie7 trigger */
+   /* vertical-align: top;*/
+
+    /*spreads nav text apart*/
+		/*margin-right: 30px;
+		margin-left: 30px;
+*/
+/*}*/
+
+/*.center .navbar-inner {
+    text-align:center;
+}
+*/
+body {
+	font-family: "Open Sans Pro";
+   /* background-image: url(http://farm1.staticflickr.com/77/219575939_79a0b732b6_o.jpg)*/;
+}
+
+/*trying to make nav bar button span the width of page*/
+/*div.container, div.nav-collapse.collapse, .navbar-fixed-top, .navbar-fixed-bottom, .navbar-inner, .navbar {
+    width: 100%;
+}
+
+
+.navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+width: 90%;
+}*/
+
+/*pushes content below navbar*/
+.contentwrapper{
+    /*margin-top: 50px;*/

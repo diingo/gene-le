@@ -1,0 +1,57 @@
+#octocatmain {
+	width: 60%;
+	height: 60%;
+	display: block;
+	margin: auto;
+}
+
+/*align text center*/
+.txtcenter {
+	text-align: center;
+}
+
+/*Style for Main Icons*/
+.mainicons {
+	font-size: 50px;
+	text-align: center;
+}
+
+/*container for all content*/
+.container {
+	margin-top: 50px;
+}
+
+/*Spacing between Rows */
+.spacingtop {
+	margin-top: 20px;
+}
+
+/*font styling */
+.grey {
+	color: #404040;
+}
+
+.extra-light {
+	font-weight: 200;
+}
+
+h1 {
+	font-size: 36px;
+	line-height: 38px;
+}
+
+header {
+	letter-spacing: -2px;
+	color: #ffe448;
+}
+
+header h2{
+	font-weight: 300;
+}
+
+/*h2, .copy {
+font-size: 30px;
+letter-spacing: -1px;
+line-height: 38px;
+font-weight: 900;
+}*/

@@ -1,0 +1,17 @@
+ .nav > ul > li {
+	display: inline-block;
+	margin: auto;
+	text-align: center;
+}
+.nav {
+	height: 50px;
+}
+
+.nav-buttons 
+	{
+	display: inline;
+	position: relative;
+	/*margin: auto;*/
+	/*text-align: center;*/
+
+}

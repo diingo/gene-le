@@ -1,0 +1,104 @@
+@import url(http://fonts.googleapis.com/css?family=Rye);
+
+/*.container {
+  min-width:960px;
+}*/
+body {
+  font-family: 'Rye';
+}
+a {
+  text-decoration: none;
+  text-align: center;
+
+}
+
+
+#nav {
+margin-left:0;
+padding:0;
+/*width:80px;*/
+position:fixed;
+background-color:#bd5d1d;
+width:100%;
+height:80px;
+line-height: 80px;
+}
+/*#nav li {
+  display: inline;
+  height: 60px;
+}*/
+#nav a {
+  font-weight:bold;
+  width:10%;
+  float:left;
+  color: #e28344;
+  line-height: 80px;
+  
+}
+#nav a #texttest {
+  line-height:80px;
+}
+
+#nav a:hover {
+  color: #faf3bc;
+  
+}
+
+#nav-container{
+  min-width:1240px;
+}
+.overview {
+	background: url('../img/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  	padding-top:100px;
+  	height:500px;
+  	background-color: #fbc15d;
+  	padding-bottom:10px;
+  	margin:0;
+}
+body {
+  background-color: #000000;
+  padding-bottom:0px;
+  padding-top:0px;
+}
+
+h2{
+	font-family:'Rye', sans-serif;
+	font-size: 4em;
+	padding-top:20px;
+}
+
+.work,
+.about {
+	background-color: #220e10;
+	height:400px;
+}
+
+.about h2,
+.work h2{
+	color:#e28344;
+	
+}
+
+.resume,
+.blog {
+	background-color:#e28344;
+	height:400px;
+}
+.resume,
+.blog h2 {
+	color:#220e10;
+
+}
+
+
+#nav #logo {
+  color:#faf3bc !important;
+  padding-right: 2%;
+  font-size:1.5em;
+  min-width:500px;
+  width:30%;
+  line-height:80px;
+  
+}
